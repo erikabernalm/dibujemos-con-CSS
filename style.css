@@ -1,0 +1,165 @@
+:root {
+  --skin: #f6c09c;
+  --background: #ed4042;
+  --fuchsia: #ed2860;
+  --dark-red: #680524;
+  --black: #00243a;
+  --white: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: "Secular One", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--background);
+}
+.head {
+  width: 170px;
+  height: 320px;
+  background: var(--skin);
+  border-radius: 90px;
+  position: relative;
+}
+
+.eye-left {
+  width: 45px;
+  height: 45px;
+  background: var(--white);
+  position: absolute;
+  top: 70px;
+  left: 43px;
+  border-radius: 50%;
+}
+
+.eye-right {
+  width: 45px;
+  height: 45px;
+  background: var(--white);
+  position: absolute;
+  top: 70px;
+  right: 43px;
+  border-radius: 50%;
+}
+
+.eyebrow {
+  width: 90px;
+  height: 20px;
+  background: var(--skin);
+  position: absolute;
+  top: 66px;
+  left: 40px;
+}
+
+.pupil-left {
+  width: 8px;
+  height: 8px;
+  background: var(--black);
+  position: absolute;
+  top: 90px;
+  left: 60px;
+  border-radius: 50%;
+}
+
+.pupil-right {
+  width: 8px;
+  height: 8px;
+  background: var(--black);
+  position: absolute;
+  top: 90px;
+  right: 60px;
+  border-radius: 50%;
+}
+
+.neck {
+  width: 115px;
+  height: 50px;
+  background: var(--skin);
+  position: absolute;
+  top: 305px;
+  left: 28px;
+}
+
+.beard {
+  width: 170px;
+  height: 195px;
+  background: var(--black);
+  position: absolute;
+  top: 130px;
+  border-radius: 50px 50px 80px 80px;
+}
+
+.nose {
+  width: 55px;
+  height: 55px;
+  background: var(--skin);
+  position: absolute;
+  top: 115px;
+  left: 58px;
+  border-radius: 50%;
+}
+
+.mouth {
+  width: 85px;
+  height: 45px;
+  background: var(--dark-red);
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  border-radius: 0 0 50px 50px;
+  overflow: hidden;
+}
+
+.teeth {
+  width: 65px;
+  height: 15px;
+  background: var(--white);
+  position: absolute;
+  border-radius: 0 0 10px;
+}
+
+.tongue {
+  width: 45px;
+  height: 25px;
+  background: var(--fuchsia);
+  position: absolute;
+  top: 22px;
+  border-radius: 0 10px;
+}
+
+.ear-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: var(--skin);
+  position: absolute;
+  top: 110px;
+  left: -30px;
+  border-radius: 50px 0 0 50px;
+  color: #ea686a;
+  opacity: 0.5;
+}
+
+.ear-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: var(--skin);
+  position: absolute;
+  top: 110px;
+  right: -30px;
+  border-radius: 0 50px 50px 0;
+  color: #ea686a;
+  opacity: 0.5;
+}
