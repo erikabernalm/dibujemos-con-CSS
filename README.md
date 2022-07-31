@@ -1,7 +1,12 @@
-# curso-profesional-CSS-Grid-Layout
+## Mi primer dibujo con CSS 👩‍🎨
 
-...
+**Técnicas utilizadas:** 
 
-## Dibujemos con CSS
+- Positions
+- Flexbox
 
-- Este es un reto de dibujo con CSS
+**Código:**
+
+[Mi primer dibujo con CSS](https://codepen.io/erikabernalm/pen/VwXrOpO "Mi primer dibujo con CSS")
+
+Esto hace parte de un reto del Curso Profesional de CSS Grid Layout de Platzi 💚💻 
